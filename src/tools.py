@@ -87,3 +87,6 @@ def abundantGenerator():
             yield num
 
         num += 1
+
+def digitPow(num, power):
+    return sum([int(x)**power for x in str(num)])
