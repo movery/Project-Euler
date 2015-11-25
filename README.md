@@ -1,12 +1,11 @@
-# Project Euler
-  [![Build Status](https://travis-ci.org/movery/Project-Euler.svg?branch=master)](https://travis-ci.org/movery/Project-Euler)
+# Project Euler [![Build Status](https://travis-ci.org/movery/Project-Euler.svg?branch=master)](https://travis-ci.org/movery/Project-Euler)
 
 <a href="https://projecteuler.net/archives">
 <img src="https://projecteuler.net/profile/movery.png"
  title="Project Euler ID" align="right" />
 </a>
 
-Solutions written in [Python](http://python.org] using version 2.7.
+Solutions written in [Python](http://python.org) using version 2.7.
 
 ## USAGE
 
