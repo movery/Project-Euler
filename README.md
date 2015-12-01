@@ -7,25 +7,39 @@
 
 Solutions written in [Python](http://python.org) using version 2.7.
 
+## INSTALLATION
+
+Simply navigate to the 'Project-Euler' directory and enter
+```
+sudo python setup.py install
+;;;
+
 ## USAGE
 
-main.py is used to print the results of given problems. Give it any number of
-Euler problems and it will attempt to call the associated function located in
-problems.py.
+ Enter 'pe' followed by the problems you would like the solutions to (delimited
+ by whitespace).
 
 ```
+ $ pe 10 20 90
 -----------------------------------------
  Attempting to solve Problem 10
- 142913828922 found in 4.968820 seconds
+ 142913828922 found in 8.132522 seconds
 -----------------------------------------
  Attempting to solve Problem 20
- 648 found in 0.304 seconds
+ 648 found in 0.103 seconds
 -----------------------------------------
  Attempting to solve Problem 90
  Problem 90 has not been solved yet
 -----------------------------------------
 ```
 
-problems.py contains the solutions to each of the Project Euler problems.
+## SOURCE CODE
 
-tools.py contains commonly used functions for use in problems.py
+/src/main.py contains the script which takes the user's number input and
+attempts solve the corresponding problem.
+
+/src/problems.py contains the solutions to each of the Project Euler problems.
+
+/src/tools.py contains commonly used functions for use in problems.py
+
+/resources/* contains text data to be used in /src/problems.py

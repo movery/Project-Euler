@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import itertools
 
 def isDivisibleBy(num, divisor):

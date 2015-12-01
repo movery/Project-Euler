@@ -1,1 +1,4 @@
 *.pyc
+build
+dist
+Project_Euler.egg-info
