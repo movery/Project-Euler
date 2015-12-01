@@ -12,7 +12,7 @@ Solutions written in [Python](http://python.org) using version 2.7.
 Simply navigate to the 'Project-Euler' directory and enter
 ```
 sudo python setup.py install
-;;;
+```
 
 ## USAGE
 
